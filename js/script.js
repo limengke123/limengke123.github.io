@@ -72,7 +72,7 @@ canvas.height = canvasHeight;
 
 
 pic = new Image();
-pic.src = "Image/logo.png";
+pic.src = "image/logo.png";
 pic.onload = function(){
 	context.drawImage(pic,0,0,450,450)
 	drawChsee();
