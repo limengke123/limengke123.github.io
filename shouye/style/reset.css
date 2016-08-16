@@ -1,0 +1,13 @@
+body,h1,h2,h3,ul,li,div,p{
+	font-size:14px;
+	font-family: "微软雅黑";
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+li{
+	list-style: none;
+}
