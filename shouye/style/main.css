@@ -4,13 +4,16 @@ h2{
 h3{
 	font-size: 24px;
 }
+header{
+	background-color: rgba(0,0,0,0.4);
+}
 nav{
 	height: 50px;
-	background: #ccc;
+	background: transparent;
 }
 #banner{
 	height: 700px;
-	background: #777;
+	background: transparent;
 }
 .logo_ul{
 	float: right;
@@ -147,9 +150,47 @@ button{
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
-	border:1px solid #fff;
 }
 .card p{
 	font-size: 18px;
 	letter-spacing: 1px;
+}
+.card:first-child{
+	background: rgba(0,0,0,0.05);
+}
+.card:nth-child(2){
+	background-color: rgba(0,0,0,0.07)
+}
+.card:nth-child(3){
+	background-color: rgba(0,0,0,0.09)
+}
+.card:nth-child(4){
+	background-color: rgba(0,0,0,0.11)
+}
+.card:nth-child(5){
+	background-color: rgba(0,0,0,0.13)
+}
+.card:nth-child(6){
+	background-color: rgba(0,0,0,0.15)
+}
+footer{
+	background-color: #333;
+	color: #fff;
+	min-height: 200px;
+	text-align: center;
+}
+.share-group{
+	width: 1080px;
+	margin: 0 auto;
+	padding: 50px;
+}
+.share-group li{
+	display: inline-block;
+	padding: 10px;
+}
+.main-wrapper{
+	background: #444 url(../images/banner.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
 }
