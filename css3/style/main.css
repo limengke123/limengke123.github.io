@@ -280,13 +280,14 @@ a{
 }
 
 .st-panel p{
-	//position: absolute;
+	position: absolute;
 	width: 75%;
 	margin: 0 auto;
 	top: 50%;
+	left：14%;
 	font-size: 26px;
 	line-height: 40px;
-	padding-top: 60%;
+	padding-top: 0;
 	text-align: center;
 	-webkit-backface-visibility:hidden;
 	color: #575656;
