@@ -1,0 +1,23 @@
+body,ul,li,h1,h2,h3,h4,h5,h6,div,p{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: "PingFang SC","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Microsoft Yahei","微软雅黑",STHeiti,"华文细黑",sans-serif;
+}
+a{text-decoration: none;}
+li{list-style: none;}
+.container{
+	width: 1220px;
+	margin: 0 auto;
+}
+.fix:after{
+	content: "";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.fix{
+	zoom: 1;
+}
