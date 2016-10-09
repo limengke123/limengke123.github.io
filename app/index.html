@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html ng-app="app">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,minimal-ui">
+		<meta name="format-detection" content="telephone=no">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+	    <div id="root" class="container">
+	    		<div class="m-artical-action">
+	    			<div class="artical-action-mid" id="action_mid"></div>
+	    		</div>
+	    		<div id="top-nav" class="top-nav" style="display:none">
+	    			<div class="icon-back"></div>
+	    			<div class="nav-title">返回书架</div>
+	    		</div>
+	       <div id="fiction_chapter_title"></div> 
+	       <div id="fiction_container" class="m-read-content">
+           <h4>有个高楼</h4>
+           <p>天涯上曾经有个高楼，说的是民国时期的原配和小三，看那些早已逝去的旧人的故事，倒是颇有几分唏嘘。很多人在回帖里痛斥那些抛弃结发妻子的男人渣男，声嘶力竭，又想起被无数姑娘转发的那句话“有朝一日剑在手，斩尽天下负心狗。”不由得哑然。我倒是觉得，感情的事，大半是由于情投意合，合则来，不合则去，人能够约束自己的是道德和责任，而非感情。从本质上来说，婚姻和爱情是背道而驰的。而一段感情能否持久与牢固，很大程度上，是两人之间的博弈，势均力敌者方能走到最后。</p>
+					 <p>我倒是觉得，感情的事，大半是由于情投意合，合则来，不合则去，人能够约束自己的是道德和责任，而非感情。从本质上来说，婚姻和爱情是背道而驰的。
+						而一段感情能否持久与牢固，很大程度上，是两人之间的博弈，势均力敌者方能走到最后。势均力敌不仅仅体现在身家、背景，更体现在两人的才学、性格、能干、兴趣和喜好上。
+						张学良不爱更加美貌端庄的于凤至，偏偏喜欢交际花赵四，无非是因为她性格泼辣外向不拘一格，赵四更符合他的审美。
+						鲁迅那个偏激激进的革命斗士，自然同样无法对小脚女人朱安生出爱慕之意。
+						若认真评价徐志摩有关的三个女人，张幼仪其实更漂亮温柔对徐志摩的感情更深，她甚至坚韧不拔，大着肚子被徐志摩抛弃后也依旧咬着牙活得漂亮潇洒，带大了孩子，念了美国的学校，成为了女强人。但是在洋派青年徐志摩的眼中，她依旧不过是个木讷无趣的乡下妇人，他更加喜欢的是林徽因的温婉聪明才华横溢和陆小曼的妖娆娇俏眼角眉梢都是风情。</p>
+              <p>天涯上曾经有个高楼，说的是民国时期的原配和小三，看那些早已逝去的旧人的故事，倒是颇有几分唏嘘。
+							很多人在回帖里痛斥那些抛弃结发妻子的男人渣男，声嘶力竭，又想起被无数姑娘转发的那句</p>
+	       </div>
+	       <div class="m-button-bar">
+	           <ul class="u-tab">
+	               <li id="prev_button">上一章</li>
+	               <li id="next_button">下一章</li>
+	           </ul>
+	       </div>
+	       <div class="bottom-nav-bk bottom_nav" style="display:none"></div>
+	       <div class="bottom-nav bottom_nav" style="display:none">
+						<div class="item menu-button" id="menu-button">
+							<div class="item-wrap">
+								<div class="icon-menu"></div>
+								<div class="icon-text">目录</div>
+							</div>
+						</div>
+						<div class="item" id="font-button">
+							<div class="item-wrap">
+								<div class="icon-ft"></div>
+								<div class="icon-text">字体</div>
+							</div>
+						</div>
+						<div class="item" id="night-button">
+							<div class="item-wrap" >
+								<div class="icon-day"></div>
+								<div class="icon-text">白天</div>
+							</div>
+							<div class="item-wrap" style="display:none;">
+								<div class="icon-night"></div>
+								<div class="icon-text">夜间</div>
+							</div>
+						</div>
+	    		</div>
+	       <div class="nav-pannel-bk nav_pannel" style="display:none"></div>
+	       <div class="nav-pannel nav_pannel" id="font-container" style="display:none">
+	       	<div class="child-mod">
+	       		<span>字号</span>
+	       		<button id="large-font" class="font-size-button">大</button>
+	       		<button id="small-font" class="font-size-button">小</button>
+	       	</div>
+	       	<div class="child-mod">
+	       		<span>背景</span>
+	       		<div class="bk-container" style="background-color:#f7eee5;">
+	       			<div class="bk-container-current" ></div>
+	       			<span style="display:none">米白</span>
+	       		</div>
+	       		<div class="bk-container" style="background-color:#e9dfc7">
+	       			<div class="bk-container-current" style="display:none;"></div>
+	       			<span style="display:none">纸张</span>
+	       		</div>
+	       		<div class="bk-container" style="background-color:#a4a4a4">
+	       			<div class="bk-container-current" style="display:none;"></div>
+	       			<span style="display:none">浅灰</span>
+	       		</div>
+	       		<div class="bk-container" style="background-color:#cdefce">
+	       			<div class="bk-container-current" style="display:none;"></div>
+	       			<span style="display:none">护眼</span>
+	       		</div>
+	       		<div class="bk-container" style="background-color:#283548">
+	       			<div class="bk-container-current" style="display:none"></div>
+	       			<span style="display:none">灰蓝</span>
+	       		</div>
+	       		<div class="bk-container" style="background-color:#0f1410">
+	       			<div class="bk-container-current" style="display:none"></div>
+	       			<span style="display:none">夜间</span>
+	       		</div>
+	       	</div>
+	       </div>
+	    </div>
+		<script src="lib/zepto.min.js"></script>
+		<script>
+			window.jQuery = $;
+		</script>
+		<script src="js/jquery.base64.js"></script>
+		<script src="js/jquery.jsonp.js"></script>
+		<script src="js/main.js"></script>
+		<script>
+		</script>
+	</body>
+</html>
